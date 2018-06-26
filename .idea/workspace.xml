@@ -58,8 +58,8 @@
       <file leaf-file-name="wechat.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/third-login/src/main/resources/wechat.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="249">
+              <caret line="12" column="102" selection-start-line="12" selection-start-column="102" selection-end-line="12" selection-end-column="102" />
             </state>
           </provider>
         </entry>
@@ -649,7 +649,7 @@
       <workItem from="1529717829668" duration="15779000" />
       <workItem from="1529887378501" duration="19388000" />
       <workItem from="1529923164974" duration="2074000" />
-      <workItem from="1529975010009" duration="2359000" />
+      <workItem from="1529975010009" duration="2733000" />
     </task>
     <task id="LOCAL-00001" summary="#1 代码生成工具类">
       <created>1528276845030</created>
@@ -785,11 +785,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178299000" />
+    <option name="totallyTimeSpent" value="178673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013405" side_tool="true" visible="true" weight="0.34950072" />
@@ -1275,8 +1274,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/third-login/src/main/resources/wechat.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="249">
+          <caret line="12" column="102" selection-start-line="12" selection-start-column="102" selection-end-line="12" selection-end-column="102" />
         </state>
       </provider>
     </entry>
