@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alipay/alipay.iml" filepath="$PROJECT_DIR$/alipay/alipay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code-tool/code-tool.iml" filepath="$PROJECT_DIR$/code-tool/code-tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doc/doc.iml" filepath="$PROJECT_DIR$/doc/doc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-queue/redis-queue.iml" filepath="$PROJECT_DIR$/redis-queue/redis-queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/third-login/third-login.iml" filepath="$PROJECT_DIR$/third-login/third-login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/third-pay/third-pay.iml" filepath="$PROJECT_DIR$/third-pay/third-pay.iml" />
+    </modules>
+  </component>
+</project>
