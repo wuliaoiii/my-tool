@@ -57,11 +57,17 @@ public class CodeGenerateUtils {
 //        loginHistory.setTableName("us_login_history");
 //        loginHistory.setTableAnnotation("登录历史");
 //        codeGenerateUtils.generate(loginHistory);
+//
+//        TableClass pay = new TableClass();
+//        pay.setTableName("py_pay");
+//        pay.setTableAnnotation("交易记录");
+//        codeGenerateUtils.generate(pay);
 
-        TableClass pay = new TableClass();
-        pay.setTableName("py_pay");
-        pay.setTableAnnotation("交易记录");
-        codeGenerateUtils.generate(pay);
+        TableClass regions = new TableClass();
+        regions.setTableName("sys_regions");
+        regions.setTableAnnotation("地区表");
+        codeGenerateUtils.generate(regions);
+
 
         //生成所有表的代码
         //codeGenerateUtils.generateAll();

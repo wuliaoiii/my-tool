@@ -1,9 +1,9 @@
-package com.github.wxpay.sdk;
+package com.yangy.pay.utils.TencentPay;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.github.wxpay.sdk.WXPayConstants.SignType;
+import com.yangy.pay.utils.TencentPay.WXPayConstants.SignType;
 
 public class WXPay {
 
@@ -15,20 +15,19 @@ public class WXPay {
     private WXPayRequest wxPayRequest;
 
     public WXPay(final WXPayConfig config) throws Exception {
-        this(config, null, true, false);
+        this(config, null, false, false);
     }
 
     public WXPay(final WXPayConfig config, final boolean autoReport) throws Exception {
         this(config, null, autoReport, false);
     }
 
-
     public WXPay(final WXPayConfig config, final boolean autoReport, final boolean useSandbox) throws Exception{
         this(config, null, autoReport, useSandbox);
     }
 
     public WXPay(final WXPayConfig config, final String notifyUrl) throws Exception {
-        this(config, notifyUrl, true, false);
+        this(config, notifyUrl, false, false);
     }
 
     public WXPay(final WXPayConfig config, final String notifyUrl, final boolean autoReport) throws Exception {
@@ -216,122 +215,6 @@ public class WXPay {
         }
         else {
             throw new Exception(String.format("return_code value %s is invalid in XML: %s", return_code, xmlStr));
-        }
-    }
-
-    /**
-     * 作用：提交刷卡支付<br>
-     * 场景：刷卡支付
-     * @param reqData 向wxpay post的请求数据
-     * @return API返回数据
-     * @throws Exception
-     */
-    public Map<String, String> microPay(Map<String, String> reqData) throws Exception {
-        return this.microPay(reqData, this.config.getHttpConnectTimeoutMs(), this.config.getHttpReadTimeoutMs());
-    }
-
-
-    /**
-     * 作用：提交刷卡支付<br>
-     * 场景：刷卡支付
-     * @param reqData 向wxpay post的请求数据
-     * @param connectTimeoutMs 连接超时时间，单位是毫秒
-     * @param readTimeoutMs 读超时时间，单位是毫秒
-     * @return API返回数据
-     * @throws Exception
-     */
-    public Map<String, String> microPay(Map<String, String> reqData, int connectTimeoutMs, int readTimeoutMs) throws Exception {
-        String url;
-        if (this.useSandbox) {
-            url = WXPayConstants.SANDBOX_MICROPAY_URL_SUFFIX;
-        }
-        else {
-            url = WXPayConstants.MICROPAY_URL_SUFFIX;
-        }
-        String respXml = this.requestWithoutCert(url, this.fillRequestData(reqData), connectTimeoutMs, readTimeoutMs);
-        return this.processResponseXml(respXml);
-    }
-
-    /**
-     * 提交刷卡支付，针对软POS，尽可能做成功
-     * 内置重试机制，最多60s
-     * @param reqData
-     * @return
-     * @throws Exception
-     */
-    public Map<String, String> microPayWithPos(Map<String, String> reqData) throws Exception {
-        return this.microPayWithPos(reqData, this.config.getHttpConnectTimeoutMs());
-    }
-
-    /**
-     * 提交刷卡支付，针对软POS，尽可能做成功
-     * 内置重试机制，最多60s
-     * @param reqData
-     * @param connectTimeoutMs
-     * @return
-     * @throws Exception
-     */
-    public Map<String, String> microPayWithPos(Map<String, String> reqData, int connectTimeoutMs) throws Exception {
-        int remainingTimeMs = 60*1000;
-        long startTimestampMs = 0;
-        Map<String, String> lastResult = null;
-        Exception lastException = null;
-
-        while (true) {
-            startTimestampMs = WXPayUtil.getCurrentTimestampMs();
-            int readTimeoutMs = remainingTimeMs - connectTimeoutMs;
-            if (readTimeoutMs > 1000) {
-                try {
-                    lastResult = this.microPay(reqData, connectTimeoutMs, readTimeoutMs);
-                    String returnCode = lastResult.get("return_code");
-                    if (returnCode.equals("SUCCESS")) {
-                        String resultCode = lastResult.get("result_code");
-                        String errCode = lastResult.get("err_code");
-                        if (resultCode.equals("SUCCESS")) {
-                            break;
-                        }
-                        else {
-                            // 看错误码，若支付结果未知，则重试提交刷卡支付
-                            if (errCode.equals("SYSTEMERROR") || errCode.equals("BANKERROR") || errCode.equals("USERPAYING")) {
-                                remainingTimeMs = remainingTimeMs - (int)(WXPayUtil.getCurrentTimestampMs() - startTimestampMs);
-                                if (remainingTimeMs <= 100) {
-                                    break;
-                                }
-                                else {
-                                    WXPayUtil.getLogger().info("microPayWithPos: try micropay again");
-                                    if (remainingTimeMs > 5*1000) {
-                                        Thread.sleep(5*1000);
-                                    }
-                                    else {
-                                        Thread.sleep(1*1000);
-                                    }
-                                    continue;
-                                }
-                            }
-                            else {
-                                break;
-                            }
-                        }
-                    }
-                    else {
-                        break;
-                    }
-                }
-                catch (Exception ex) {
-                    lastResult = null;
-                    lastException = ex;
-                }
-            }
-            else {
-                break;
-            }
-        }
-
-        if (lastResult == null) {
-            throw lastException;
-        }
-        else {
-            return lastResult;
         }
     }
 
@@ -594,6 +477,24 @@ public class WXPay {
     }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /**
      * 作用：交易保障<br>
      * 场景：刷卡支付、公共号支付、扫码支付、APP支付
@@ -691,6 +592,123 @@ public class WXPay {
         }
         String respXml = this.requestWithoutCert(url, this.fillRequestData(reqData), connectTimeoutMs, readTimeoutMs);
         return this.processResponseXml(respXml);
+    }
+
+
+    /**
+     * 作用：提交刷卡支付<br>
+     * 场景：刷卡支付
+     * @param reqData 向wxpay post的请求数据
+     * @return API返回数据
+     * @throws Exception
+     */
+    public Map<String, String> microPay(Map<String, String> reqData) throws Exception {
+        return this.microPay(reqData, this.config.getHttpConnectTimeoutMs(), this.config.getHttpReadTimeoutMs());
+    }
+
+
+    /**
+     * 作用：提交刷卡支付<br>
+     * 场景：刷卡支付
+     * @param reqData 向wxpay post的请求数据
+     * @param connectTimeoutMs 连接超时时间，单位是毫秒
+     * @param readTimeoutMs 读超时时间，单位是毫秒
+     * @return API返回数据
+     * @throws Exception
+     */
+    public Map<String, String> microPay(Map<String, String> reqData, int connectTimeoutMs, int readTimeoutMs) throws Exception {
+        String url;
+        if (this.useSandbox) {
+            url = WXPayConstants.SANDBOX_MICROPAY_URL_SUFFIX;
+        }
+        else {
+            url = WXPayConstants.MICROPAY_URL_SUFFIX;
+        }
+        String respXml = this.requestWithoutCert(url, this.fillRequestData(reqData), connectTimeoutMs, readTimeoutMs);
+        return this.processResponseXml(respXml);
+    }
+
+    /**
+     * 提交刷卡支付，针对软POS，尽可能做成功
+     * 内置重试机制，最多60s
+     * @param reqData
+     * @return
+     * @throws Exception
+     */
+    public Map<String, String> microPayWithPos(Map<String, String> reqData) throws Exception {
+        return this.microPayWithPos(reqData, this.config.getHttpConnectTimeoutMs());
+    }
+
+    /**
+     * 提交刷卡支付，针对软POS，尽可能做成功
+     * 内置重试机制，最多60s
+     * @param reqData
+     * @param connectTimeoutMs
+     * @return
+     * @throws Exception
+     */
+    public Map<String, String> microPayWithPos(Map<String, String> reqData, int connectTimeoutMs) throws Exception {
+        int remainingTimeMs = 60*1000;
+        long startTimestampMs = 0;
+        Map<String, String> lastResult = null;
+        Exception lastException = null;
+
+        while (true) {
+            startTimestampMs = WXPayUtil.getCurrentTimestampMs();
+            int readTimeoutMs = remainingTimeMs - connectTimeoutMs;
+            if (readTimeoutMs > 1000) {
+                try {
+                    lastResult = this.microPay(reqData, connectTimeoutMs, readTimeoutMs);
+                    String returnCode = lastResult.get("return_code");
+                    if (returnCode.equals("SUCCESS")) {
+                        String resultCode = lastResult.get("result_code");
+                        String errCode = lastResult.get("err_code");
+                        if (resultCode.equals("SUCCESS")) {
+                            break;
+                        }
+                        else {
+                            // 看错误码，若支付结果未知，则重试提交刷卡支付
+                            if (errCode.equals("SYSTEMERROR") || errCode.equals("BANKERROR") || errCode.equals("USERPAYING")) {
+                                remainingTimeMs = remainingTimeMs - (int)(WXPayUtil.getCurrentTimestampMs() - startTimestampMs);
+                                if (remainingTimeMs <= 100) {
+                                    break;
+                                }
+                                else {
+                                    WXPayUtil.getLogger().info("microPayWithPos: try micropay again");
+                                    if (remainingTimeMs > 5*1000) {
+                                        Thread.sleep(5*1000);
+                                    }
+                                    else {
+                                        Thread.sleep(1*1000);
+                                    }
+                                    continue;
+                                }
+                            }
+                            else {
+                                break;
+                            }
+                        }
+                    }
+                    else {
+                        break;
+                    }
+                }
+                catch (Exception ex) {
+                    lastResult = null;
+                    lastException = ex;
+                }
+            }
+            else {
+                break;
+            }
+        }
+
+        if (lastResult == null) {
+            throw lastException;
+        }
+        else {
+            return lastResult;
+        }
     }
 
 

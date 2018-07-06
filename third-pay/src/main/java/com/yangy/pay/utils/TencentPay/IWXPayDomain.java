@@ -1,4 +1,4 @@
-package com.github.wxpay.sdk;
+package com.yangy.pay.utils.TencentPay;
 
 /**
  * 域名管理，实现主备域名自动切换

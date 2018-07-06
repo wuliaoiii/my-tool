@@ -1,4 +1,4 @@
-package com.github.wxpay.sdk;
+package com.yangy.pay.utils.TencentPay;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -91,6 +91,8 @@ public class WXPayRequest {
         HttpClient httpClient = HttpClientBuilder.create()
                 .setConnectionManager(connManager)
                 .build();
+
+
 
         String url = "https://" + domain + urlSuffix;
         HttpPost httpPost = new HttpPost(url);

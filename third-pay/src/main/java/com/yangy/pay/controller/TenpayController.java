@@ -33,49 +33,38 @@ public class TenpayController {
     /**
      * APP支付 —— 调用微信APP支付统一下单接口
      * 参考: (https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=9_1)
+     *
      * @param request
      * @return
      */
     @PostMapping(value = "/unified")
     public String unified(HttpServletRequest request) {
-        //String ipAddr = request.getParameter("ipAddr");//APP和网页支付提交用户端ip
         String params = request.getParameter("params");//获取参数
-        String ip = PayUtils.getIpAddr(request);
+        String ip = PayUtils.getIpAddr(request);//APP和网页支付提交用户端ip
         if (StringUtils.isBlank(ip)) {
-//            return ResultUtils.toErrorString(ResultEnum.BAD_REQUEST);
+            //参数错误
         }
         Pay pay = TenpayUtils.acquireRechargeParams(params);
-        //参数错误
         if (null == pay) {
-//            return ResultUtils.toErrorString(ResultEnum.BAD_REQUEST);
+            //参数错误
         }
 
-        //设置统一下单支付参数
         SortedMap<String, String> prepayParams = TenpayUtils.setPrepayParams(pay, ip);
-        //记录支付参数日志
-        log.info("Tenpay APP unifiedOrder prepay params:" + prepayParams);
         //生成xml(统一下单发送格式)
         String requestXML = XMLUtils.mapToXmlStr(prepayParams);
-        //记录统一下单参数日志
-        log.info("Tenpay APP unifiedOrder prepay xml params:" + requestXML);
         //向微信发送请求(POST)生成预付单, 获取预付单信息
         String single = HttpsClientUtils.httpsPostRequest(TenpayConfig.getUnifiedOrder(), requestXML);
         //解析微信返回的信息，以Map形式存储便于取值
         Map<String, String> prepayResultMap = XMLUtils.xmlStrToMap(single);
-        //记录统一下单结果
-        log.info("Tenpay APP prepay result:" + prepayResultMap);
 
-        /*
-        * 验证微信返回信息
-        * */
+        //验证微信返回信息
         if (null == prepayResultMap || "FAIL".equals(prepayResultMap.get("return_code")) ||
                 "FAIL".equals(prepayResultMap.get("result_code"))) {
-//            return ResultUtils.toErrorString(ResultEnum.BAD_REQUEST);
+            //参数错误
         }
 
         //设置支付参数用于返回前端
         SortedMap<String, String> payParams = TenpayUtils.setPayParams(prepayResultMap);
-        log.info("Tenpay APP unifiedOrder params:" + payParams);//记录支付参数日志
 
         //支付类型 充值
         pay.setType(100);
@@ -88,6 +77,7 @@ public class TenpayController {
     /**
      * 接收微信回调信息 (APP支付)
      * 参考: (https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=9_7&index=3)
+     *
      * @param request
      * @param response
      */
@@ -127,8 +117,8 @@ public class TenpayController {
         Map<String, String> resultMap = XMLUtils.xmlStrToMap(params);
 
         /*
-        * 验证系统结果 SUCCESS/FAIL
-        * */
+         * 验证系统结果 SUCCESS/FAIL
+         * */
         if (null == resultMap || "FAIL".equals(resultMap.get("return_code"))) {
             log.error("Tenpay APP notify system is error");
         } else {

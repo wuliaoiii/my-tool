@@ -1,4 +1,4 @@
-package com.lanqi.user.config;
+package com.yangy.redis.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

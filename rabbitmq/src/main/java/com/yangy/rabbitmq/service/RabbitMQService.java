@@ -6,18 +6,7 @@ import com.rabbitmq.client.ConnectionFactory;
 
 public interface RabbitMQService {
 
-    ConnectionFactory getConnectionFactory();
+    void send(String queueName,String msg);
 
-    Connection getConnection(ConnectionFactory connectionFactory);
-
-    Channel getChannel(Connection connection);
-
-    void sendMsg(byte[] msgBytes);
-
-    void getMsg();
-
-    void sendDelayMsg(byte[] msgBytes,Long delayTime);
-
-    void getDelayMsg();
-
+    void send(String queueName,String msg,Long delayTime);
 }

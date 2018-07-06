@@ -32,6 +32,12 @@ public class AlipayController {
 
     private static final Logger logger = LoggerFactory.getLogger(AlipayController.class);
 
+    /**
+     * 支付
+     *
+     * @param pay
+     * @return
+     */
     @PostMapping(value = "/pay")
     @ResponseBody
     public String pay(@RequestBody Pay pay) {
@@ -42,6 +48,12 @@ public class AlipayController {
         return null;
     }
 
+    /**
+     * 退款
+     *
+     * @param pay
+     * @return
+     */
     @PostMapping(value = "/refund")
     @ResponseBody
     public String refund(@RequestBody Pay pay) {
@@ -52,6 +64,12 @@ public class AlipayController {
         return null;
     }
 
+    /**
+     * 转账
+     *
+     * @param pay
+     * @return
+     */
     @PostMapping(value = "/transfer")
     @ResponseBody
     public String transfer(@RequestBody Pay pay) {
@@ -70,6 +88,7 @@ public class AlipayController {
      * @param response
      */
     @PostMapping(value = "/notify")
+    @ResponseBody
     public void notify(HttpServletRequest request, HttpServletResponse response) {
         logger.info("Alipay APP notify start");//25小时以内完成8次通知
         String result = "failure";
@@ -129,8 +148,8 @@ public class AlipayController {
      * @return: String
      * @throws: Exception
      */
-
     @PostMapping("/result")
+    @ResponseBody
     public String result(@RequestBody Pay pay) {
         AlipayTradeQueryResponse response = AlipayUtils.forPayQuery(pay);
         //查询失败

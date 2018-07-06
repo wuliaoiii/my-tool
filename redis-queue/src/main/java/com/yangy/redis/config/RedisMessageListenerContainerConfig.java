@@ -1,5 +1,6 @@
-package com.yangy.redis.utils;
+package com.yangy.redis.config;
 
+import com.yangy.redis.utils.TopicMessageListener;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -32,7 +33,7 @@ public class RedisMessageListenerContainerConfig {
         // 设置监听使用的线程池  
         container.setTaskExecutor(executor);
         // 设置监听的Topic  
-        ChannelTopic channelTopic = new ChannelTopic("TASK_QUEUE_DIVIDEND");
+        ChannelTopic channelTopic = new ChannelTopic("task_queue");
         // 设置监听器  
         container.addMessageListener(messageListener, channelTopic);
         return container;

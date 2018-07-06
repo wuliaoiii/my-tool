@@ -1,4 +1,4 @@
-package com.github.wxpay.sdk;
+package com.yangy.pay.utils.TencentPay;
 
 /**
  * 常量
@@ -24,15 +24,26 @@ public class WXPayConstants {
     public static final String FIELD_SIGN_TYPE = "sign_type";
 
     public static final String MICROPAY_URL_SUFFIX     = "/pay/micropay";
+    //统一下单
     public static final String UNIFIEDORDER_URL_SUFFIX = "/pay/unifiedorder";
+    //查询订单
     public static final String ORDERQUERY_URL_SUFFIX   = "/pay/orderquery";
+    //
     public static final String REVERSE_URL_SUFFIX      = "/secapi/pay/reverse";
+    //关闭订单
     public static final String CLOSEORDER_URL_SUFFIX   = "/pay/closeorder";
+    //申请退款
     public static final String REFUND_URL_SUFFIX       = "/secapi/pay/refund";
+    //退款查询
     public static final String REFUNDQUERY_URL_SUFFIX  = "/pay/refundquery";
+    //下载对账单
     public static final String DOWNLOADBILL_URL_SUFFIX = "/pay/downloadbill";
+    //交易保障
     public static final String REPORT_URL_SUFFIX       = "/payitil/report";
+
+
     public static final String SHORTURL_URL_SUFFIX     = "/tools/shorturl";
+
     public static final String AUTHCODETOOPENID_URL_SUFFIX = "/tools/authcodetoopenid";
 
     // sandbox

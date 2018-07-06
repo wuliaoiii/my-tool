@@ -1,4 +1,4 @@
-package com.github.wxpay.sdk;
+package com.yangy.pay.utils.TencentPay;
 
 import java.io.InputStream;
 

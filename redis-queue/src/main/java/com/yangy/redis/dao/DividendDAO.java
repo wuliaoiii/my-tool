@@ -1,4 +1,8 @@
 package com.yangy.redis.dao;
 
-public interface DividendDAO {
+import com.yangy.redis.entity.Dividend;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface DividendDAO extends JpaRepository<Dividend,Long> {
+
 }

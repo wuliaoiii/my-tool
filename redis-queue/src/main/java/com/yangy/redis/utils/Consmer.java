@@ -1,10 +1,8 @@
 package com.yangy.redis.utils;
 
 import com.alibaba.fastjson.JSONObject;
-import com.lanqi.common.entity.Dividend;
-import com.lanqi.common.enums.RedisKeyEnum;
-import com.lanqi.common.service.RedisService;
-import com.lanqi.pay.service.DividendService;
+import com.yangy.redis.entity.Dividend;
+import com.yangy.redis.service.DividendService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.ListOperations;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -22,25 +20,48 @@ import java.util.concurrent.TimeUnit;
 public class Consmer {
 
     @Autowired
-    private  DividendService dividendService;
+    private DividendService dividendService;
 
     @Autowired
-    private RedisService redisService;
+    private RedisTemplate redisTemplate;
 
-    public  void consume() {
+    private static final ThreadLocal<RedisTemplate> threadLocal = new ThreadLocal<>();
+
+    public static final String taskKey = "task_queue";
+    public static final String tmpKey = "tmp_queue";
+
+    public void consume() {
+        RedisTemplate redisTemplate = threadLocal.get();
+        if (null == redisTemplate) {
+            threadLocal.set(this.redisTemplate);
+        }
+
+        RedisTemplate template = threadLocal.get();
+        while (true) {
+            ListOperations forList = template.opsForList();
+            String json = (String) forList.rightPopAndLeftPush(taskKey, tmpKey, 0, TimeUnit.SECONDS);
+            Dividend dividend = JSONObject.parseObject(json, Dividend.class);
+            Dividend update = dividendService.update(dividend);
+            if (null != update) {
+                forList.rightPopAndLeftPush(tmpKey, taskKey);
+            } else {
+                // 将本次任务从暂存队列"tmp-queue"中清除
+                forList.rightPop(tmpKey);
+            }
+        }
+/*
         new Thread(new Runnable() {
             @Override
             public void run() {
                 while (true) {
-                    String taskKey = RedisKeyEnum.TASK_QUEUE_DIVIDEND.getKey();
-                    String tmpKey = RedisKeyEnum.TMP_QUEUE_DIVIDEND.getKey();
-                    RedisTemplate<String, String> redisTemplate = redisService.getRedisTemplate();
-                    ListOperations<String, String> forList = redisTemplate.opsForList();
+
+
+                    ListOperations<String, String> forList = Consmer.this.redisTemplate.opsForList();
                     //获取redis中的
                     String json = forList.rightPopAndLeftPush(taskKey, tmpKey, 0, TimeUnit.SECONDS);
                     Dividend dividend = JSONObject.parseObject(json, Dividend.class);
-                    boolean update = dividendService.update(dividend);
-                    if (update) {
+                    Dividend update = dividendService.update(dividend);
+                    if (null != update) {
                         forList.rightPopAndLeftPush(tmpKey, taskKey);
                     } else {
                         // 将本次任务从暂存队列"tmp-queue"中清除
@@ -48,6 +69,6 @@ public class Consmer {
                     }
                 }
             }
-        }).run();
+        }).run();*/
     }
 }

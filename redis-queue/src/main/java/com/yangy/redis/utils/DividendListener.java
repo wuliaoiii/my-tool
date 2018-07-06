@@ -2,9 +2,9 @@ package com.yangy.redis.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.lanqi.common.entity.Dividend;
-import com.lanqi.common.enums.RedisKeyEnum;
-import com.lanqi.pay.dao.DividendMapper;
+import com.yangy.redis.dao.DividendDAO;
+import com.yangy.redis.entity.Dividend;
+import com.yangy.redis.service.DividendService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.ListOperations;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -17,18 +17,19 @@ import java.util.List;
 @Component("dividendListener")
 public class DividendListener {
 
-    @Autowired
-    private DividendMapper dividendService;
+    @Resource
+    private DividendService dividendService;
 
     @Resource
     private RedisTemplate redisTemplate;
 
     //监听Redis消息
+    @SuppressWarnings("Unchecked")
     public void handleMessage(Dividend dividend) {
         /*缓存队列key*/
-        String tmpKey = "TMP_QUEUE_DIVIDEND";
+        String tmpKey = "tmp_queue";
         /*工作队列key*/
-        String taskKey = "TASK_QUEUE_DIVIDEND";
+        String taskKey = "task_queue";
         /*获取list操作*/
         ListOperations forList = redisTemplate.opsForList();
 
@@ -49,14 +50,14 @@ public class DividendListener {
                     /*开启redis事务*/
                     redisTemplate.multi();
                     /*获取数据库中的对象信息*/
-                    Dividend dividendDB = dividendService.find(dividendRedis.getUserId());
+                    Dividend dividendDB = dividendService.selectById(dividendRedis.getUserId());
                     /*对数据库中的信息做判断*/
                     if (null != dividendDB && null != dividendDB.getAmount() && -1 != dividendDB.getAmount().compareTo(BigDecimal.ZERO)) {
                         dividendDB.setUpdateTime(System.currentTimeMillis());
-                        int update = dividendService.update(dividendDB);
-                        System.out.println(update);
+                        Dividend update = dividendService.update(dividendDB);
+                        System.out.println(JSON.toJSONString(update));
 
-                        if (update > 0) {
+                        if (null != update) {
                             /*成功清除缓存队列中的元素*/
                             forList.rightPop(tmpKey);
                         } else {

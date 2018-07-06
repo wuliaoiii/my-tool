@@ -33,8 +33,7 @@ public class ${table_name}Controller {
     @PostMapping("/save")
     @ResponseBody
     public Result save(@RequestBody ${table_name} ${table_name?uncap_first}) {
-        ${table_name} ${table_name?uncap_first}Save = ${table_name?uncap_first}Service.save${table_name}(${table_name?uncap_first});
-        return new Response<${table_name}>().success(${table_name?uncap_first}Save);
+        return new Response<${table_name}>().success(${table_name?uncap_first}Service.save${table_name}(${table_name?uncap_first}));
     }
 
     /**
@@ -44,8 +43,7 @@ public class ${table_name}Controller {
     @PostMapping(value = "/del")
     @ResponseBody
     public Result deleteById(@RequestParam("recordId") String recordId) {
-        int delResult = ${table_name?uncap_first}Service.deleteById(recordId);
-        return new Response<Integer>().success(delResult);
+        return new Response<Integer>().success(${table_name?uncap_first}Service.deleteById(recordId));
     }
 
     /**
@@ -55,8 +53,7 @@ public class ${table_name}Controller {
     @PostMapping(value = "/del/list")
     @ResponseBody
     public Result deleteById(@RequestParam("recordIdArr") Long[] recordIdArr) {
-        int delResult = ${table_name?uncap_first}Service.deleteByIdArr(recordIdArr);
-        return new Response<Integer>().success(delResult);
+        return new Response<Integer>().success(${table_name?uncap_first}Service.deleteByIdArr(recordIdArr));
     }
 
     /**
@@ -66,8 +63,7 @@ public class ${table_name}Controller {
     @PostMapping(value = "/update")
     @ResponseBody
     public Result update${table_name}(@RequestBody ${table_name} ${table_name?uncap_first}) {
-        ${table_name} ${table_name?uncap_first}Update = ${table_name?uncap_first}Service.update${table_name}(${table_name?uncap_first});
-        return new Response<${table_name}>().success(${table_name?uncap_first}Update);
+        return new Response<${table_name}>().success(${table_name?uncap_first}Service.update${table_name}(${table_name?uncap_first}));
     }
 
     /**
