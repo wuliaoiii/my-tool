@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/alipay/alipay.iml" filepath="$PROJECT_DIR$/alipay/alipay.iml" />
       <module fileurl="file://$PROJECT_DIR$/code-tool/code-tool.iml" filepath="$PROJECT_DIR$/code-tool/code-tool.iml" />
       <module fileurl="file://$PROJECT_DIR$/design/design.iml" filepath="$PROJECT_DIR$/design/design.iml" />
       <module fileurl="file://$PROJECT_DIR$/doc/doc.iml" filepath="$PROJECT_DIR$/doc/doc.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-queue/redis-queue.iml" filepath="$PROJECT_DIR$/redis-queue/redis-queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-sender/spring-cloud-sender.iml" filepath="$PROJECT_DIR$/spring-cloud-sender/spring-cloud-sender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-stream/spring-cloud-stream.iml" filepath="$PROJECT_DIR$/spring-cloud-stream/spring-cloud-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_jenkins/test_jenkins.iml" filepath="$PROJECT_DIR$/test_jenkins/test_jenkins.iml" />
       <module fileurl="file://$PROJECT_DIR$/third-login/third-login.iml" filepath="$PROJECT_DIR$/third-login/third-login.iml" />
       <module fileurl="file://$PROJECT_DIR$/third-pay/third-pay.iml" filepath="$PROJECT_DIR$/third-pay/third-pay.iml" />
     </modules>

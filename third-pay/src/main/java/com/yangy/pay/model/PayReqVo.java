@@ -1,11 +1,11 @@
-package com.lanqi.common.vo;
+package com.yangy.pay.model;
 
 /**
- * 支付请求参数
+ * 交易请求参数vo
  *
  * @author yangy
- * @email yangyang@lanqikeji.cn
- * @create 2018/7/12
+ * @email java_yangy@126.com
+ * @create 2018/6/25
  * @since 1.0.0
  */
 public class PayReqVo {

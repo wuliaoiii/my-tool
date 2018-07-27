@@ -1,14 +1,16 @@
-package com.lanqi.common.entity;
+package com.yangy.pay.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
- * 描述：交易记录模型
+ * 交易对象
  *
  * @author yangy
- * @date 2018/06/25
+ * @email java_yangy@126.com
+ * @create 2018/6/25
+ * @since 1.0.0
  */
 @Entity
 @Table(name = "py_pay")

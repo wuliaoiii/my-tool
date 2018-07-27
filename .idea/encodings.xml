@@ -6,6 +6,9 @@
     <file url="file://$PROJECT_DIR$/design" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/redis-queue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sender" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-stream" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test_jenkins" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/third-login" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/third-pay" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wxlogin" charset="UTF-8" />

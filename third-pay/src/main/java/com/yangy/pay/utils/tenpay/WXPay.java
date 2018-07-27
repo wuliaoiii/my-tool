@@ -1,4 +1,4 @@
-package com.lanqi.common.utils.tenpay;
+package com.yangy.pay.utils.tenpay;
 
 import com.lanqi.common.config.TenpayConfig;
 import com.lanqi.common.utils.tenpay.WXPayConstants.SignType;

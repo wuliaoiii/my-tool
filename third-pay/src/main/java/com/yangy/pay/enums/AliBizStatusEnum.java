@@ -1,4 +1,4 @@
-package com.lanqi.common.enums;
+package com.yangy.pay.enums;
 
 /**
  * 交易状态枚举

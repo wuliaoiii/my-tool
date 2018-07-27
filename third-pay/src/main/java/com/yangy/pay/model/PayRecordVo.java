@@ -1,13 +1,13 @@
-package com.lanqi.common.vo;
+package com.yangy.pay.model;
 
 import java.math.BigDecimal;
 
 /**
- * 支付记录VO
+ * 交易记录vo
  *
  * @author yangy
  * @email java_yangy@126.com
- * @create 2018/7/10
+ * @create 2018/6/25
  * @since 1.0.0
  */
 public class PayRecordVo {

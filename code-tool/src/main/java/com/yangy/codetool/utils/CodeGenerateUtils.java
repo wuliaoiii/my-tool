@@ -63,10 +63,15 @@ public class CodeGenerateUtils {
 //        pay.setTableAnnotation("交易记录");
 //        codeGenerateUtils.generate(pay);
 
-        TableClass regions = new TableClass();
-        regions.setTableName("sys_regions");
-        regions.setTableAnnotation("地区表");
-        codeGenerateUtils.generate(regions);
+//        TableClass regions = new TableClass();
+//        regions.setTableName("sys_regions");
+//        regions.setTableAnnotation("地区表");
+//        codeGenerateUtils.generate(regions);
+
+        TableClass demandPersonal = new TableClass();
+        demandPersonal.setTableName("us_demand_personal");
+        demandPersonal.setTableAnnotation("私人需求记录表");
+        codeGenerateUtils.generate(demandPersonal);
 
 
         //生成所有表的代码

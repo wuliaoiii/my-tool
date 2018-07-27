@@ -1,4 +1,4 @@
-package com.lanqi.common.utils.alipay;
+package com.yangy.pay.utils.alipay;
 
 import com.alibaba.fastjson.JSON;
 import com.alipay.api.AlipayApiException;
@@ -6,15 +6,18 @@ import com.alipay.api.domain.*;
 import com.alipay.api.internal.util.AlipaySignature;
 import com.alipay.api.request.*;
 import com.alipay.api.response.*;
-import com.lanqi.common.config.AlipayConfig;
-import com.lanqi.common.entity.Pay;
-import com.lanqi.common.vo.PayRecordVo;
+import com.yangy.pay.config.AlipayConfig;
+import com.yangy.pay.entity.Pay;
+import com.yangy.pay.model.PayRecordVo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.SortedMap;
 
 /**
  * @author yangy

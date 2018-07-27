@@ -1,4 +1,4 @@
-package com.lanqi.common.config;
+package com.yangy.pay.config;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -20,10 +20,6 @@ public class TenpayConfig {
     private static String PRIVATE_KEY = null;
 
     private static String NOTIFY_URL = null;
-
-//    private static String UNIFIED_ORDER = null;
-//
-//    private static String ORDER_QUERY = null;
 
     private static String DOMAIN = null;
 
@@ -84,21 +80,6 @@ public class TenpayConfig {
         return NOTIFY_URL;
     }
 
-//    public static String getUnifiedOrder() {
-//        if (StringUtils.isNotBlank(UNIFIED_ORDER)) {
-//            return UNIFIED_ORDER;
-//        }
-//        UNIFIED_ORDER = getProperty("UNIFIED_ORDER");
-//        return UNIFIED_ORDER;
-//    }
-//
-//    public static String getOrderQuery() {
-//        if (StringUtils.isNotBlank(ORDER_QUERY)) {
-//            return ORDER_QUERY;
-//        }
-//        ORDER_QUERY = getProperty("ORDER_QUERY");
-//        return ORDER_QUERY;
-//    }
     public static String getDomain() {
         if (StringUtils.isNotBlank(DOMAIN)) {
             return DOMAIN;

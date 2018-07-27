@@ -20,7 +20,7 @@ public final class MQConstant {
     public static final String REPEAT_TRADE_QUEUE_NAME = "my.dead.repeat.trade.queue";
 
     //测试队列名称
-    public static final String TEST_QUEUE_NAME = "my.test.queue";
+    public static final String TEST_QUEUE_NAME = "pay_cancel_int";
 
     //绑定key
     public static final String DEAULT_EXCHANGE_BINDING_KEY = "my.topic.bind.key";

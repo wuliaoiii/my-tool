@@ -6,16 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a1594c4-1112-4346-b661-16e21b04bc6c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/design/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/yangy/design/DesignApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/test/java/com/yangy/design/DesignApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/config/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_jenkins/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -34,26 +25,28 @@
       <change beforePath="$PROJECT_DIR$/code-tool/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code-tool/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code-tool/src/main/java/com/yangy/codetool/CodeToolApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/code-tool/src/main/java/com/yangy/codetool/CodeToolApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code-tool/src/main/java/com/yangy/codetool/utils/CodeGenerateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/code-tool/src/main/java/com/yangy/codetool/utils/CodeGenerateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-tool/src/main/java/com/yangy/codetool/utils/ShareCodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/code-tool/src/main/java/com/yangy/codetool/utils/ShareCodeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-tool/src/main/java/com/yangy/codetool/utils/ShareCodeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/code-tool/src/main/java/com/yangy/codetool/utils/ShareCodeUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code-tool/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code-tool/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code-tool/src/main/resources/generateModel.properties" beforeDir="false" afterPath="$PROJECT_DIR$/code-tool/src/main/resources/generateModel.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code-tool/src/main/resources/templates/controller.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/code-tool/src/main/resources/templates/controller.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code-tool/src/test/java/com/yangy/codetool/CodeToolApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/code-tool/src/test/java/com/yangy/codetool/CodeToolApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/yangy/design/model/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/yangy/design/model/Listener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/yangy/design/model/RunThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/yangy/design/model/RunThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/.idea/doc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doc/.idea/doc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doc/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doc/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doc/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/doc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doc/doc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/html/rabbitmq.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/html/rabbitmq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/RabbitmqApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/RabbitmqApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/RabbitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/MQConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/TestProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/TestProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/TradeProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/TradeProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/controller/MQTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/controller/MQTestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/enums/MQConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/enums/MQConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/model/DLXMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/model/DLXMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/redis/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/redis/Consumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/redis/DividendListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/redis/DividendListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/redis/RedisMessageListenerContainerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/redis/RedisMessageListenerContainerConfig.java" afterDir="false" />
@@ -64,21 +57,13 @@
       <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/service/impl/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/service/impl/RedisServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/RabbitmqApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/config/PushBlockQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/config/PushBlockQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/config/PushBlockQueueHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/config/PushBlockQueueHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/service/impl/HelloApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/service/impl/HelloApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/service/impl/RabbitMQServiceImplTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/redis-queue/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/redis-queue/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis-queue/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/redis-queue/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis-queue/mvnw" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/redis-queue/mvnw.cmd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/redis-queue/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis-queue/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/RedisQueueApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/RedisQueueApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/config/RedisMessageListenerContainerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/config/RedisMessageListenerContainerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/dao/DividendDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/dao/DividendDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/entity/Dividend.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/entity/Dividend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/service/DividendService.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/service/DividendService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/service/impl/DividendServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/service/impl/DividendServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/service/impl/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/service/impl/RedisServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/utils/Consmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/utils/Consmer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/utils/DividendListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/utils/DividendListener.java" afterDir="false" />
@@ -86,6 +71,21 @@
       <change beforePath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/utils/TopicMessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/utils/TopicMessageListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis-queue/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/redis-queue/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis-queue/src/test/java/com/yangy/redisqueue/RedisQueueApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-queue/src/test/java/com/yangy/redisqueue/RedisQueueApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sender/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sender/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sender/spring-cloud-sender.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sender/spring-cloud-sender.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/SenderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/SenderApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/model/ConsumerSink.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/model/ConsumerSink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/model/MySink.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/model/MySink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/sender/GroupSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/sender/GroupSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sender/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sender/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-stream/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-stream/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-stream/spring-cloud-stream.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-stream/spring-cloud-stream.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/ReceiveApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/ReceiveApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/model/PayProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/model/PayProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/receiver/SinkReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/receiver/SinkReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/sender/SinkSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/sender/SinkSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-stream/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-stream/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/third-login/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/third-login/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/third-login/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/third-login/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/third-login/mvnw" beforeDir="false" />
@@ -97,16 +97,43 @@
       <change beforePath="$PROJECT_DIR$/third-pay/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/third-pay/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/ThirdPayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/ThirdPayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/controller/AlipayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/controller/AlipayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/controller/TenpayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/controller/TenpayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/IWXPayDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/IWXPayDomain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPayConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPayConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPayConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPayConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPayReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPayReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPayRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPayRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPayRequestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPayRequestModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPayUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/config/AlipayConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/config/AlipayConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/config/TenpayConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/config/TenpayConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/controller/AlipayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/controller/TenpayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/entity/Pay.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/entity/Pay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/enums/AliBizStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/enums/AliBizStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/enums/PayEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/enums/PayEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/enums/PayWayEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/enums/ali/AliBizStatusEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/model/AliPayPublicRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/model/PayRecordVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/model/PayRecordVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/model/PayReqVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/model/PayReqVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/service/PayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/service/PayService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/service/impl/PayServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/service/impl/PayServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/MD5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/MD5Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/PayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/PayUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/ReflectUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/alipay/AlipayConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/alipay/AlipayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/alipay/AlipayManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/alipay/AlipayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/alipay/AlipayUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/HttpsClientUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/MD5Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/MyX509TrustManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/Sha1Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/SignUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/TenpayConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/TenpayUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/WXPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/WXPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/WXPayConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/WXPayConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/WXPayRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/WXPayRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/WXPayRequestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/WXPayRequestModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/WXPayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/WXPayUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/XMLUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/resources/alipay.properties" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/resources/alipay.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-pay/src/main/resources/tenpay.properties" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/main/resources/tenpay.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/third-pay/src/test/java/com/yangy/pay/ThirdPayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/third-pay/src/test/java/com/yangy/pay/ThirdPayApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wxlogin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wxlogin/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wxlogin/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wxlogin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
@@ -126,6 +153,9 @@
     <ignored path="$PROJECT_DIR$/third-pay/target/" />
     <ignored path="$PROJECT_DIR$/redis-queue/target/" />
     <ignored path="$PROJECT_DIR$/design/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-stream/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-sender/target/" />
+    <ignored path="$PROJECT_DIR$/test_jenkins/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,16 +163,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/tool$ReceiveApp.ic" NAME="ReceiveApp Coverage Results" MODIFIED="1531555404250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.yangy.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="tool" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RabbitConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/RabbitConfig.java">
+      <file leaf-file-name="ReceiveApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/ReceiveApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="232">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,29 +185,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq/pom.xml">
+      <file leaf-file-name="AlipayManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/alipay/AlipayManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="233">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/config/Consumer.java">
+      <file leaf-file-name="AlipayUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/alipay/AlipayUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="48" column="33" selection-end-line="81" />
+            <state relative-caret-position="255">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CodeGenerateUtils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code-tool/src/main/java/com/yangy/codetool/utils/CodeGenerateUtils.java">
+      <file leaf-file-name="PayServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/service/impl/PayServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="250">
+              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_jenkins/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="PayProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/model/PayProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,53 +232,8 @@
       <file leaf-file-name="RabbitMQServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/service/impl/RabbitMQServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExchangeEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/enums/ExchangeEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MQConstant.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/enums/MQConstant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/service/impl/HelloApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="28" column="100" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/TestProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="690">
+              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -234,11 +241,26 @@
       <file leaf-file-name="TradeProcessor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/TradeProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="530">
+              <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RabbitmqApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/RabbitmqApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-stream/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -284,6 +306,8 @@
       <find>httpclient</find>
       <find>UNIFIEDORDER_URL_SUFFIX</find>
       <find>mq</find>
+      <find>withPayload</find>
+      <find>build</find>
     </findStrings>
     <replaceStrings>
       <replace>StringUtils</replace>
@@ -305,57 +329,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/RedisQueueApplication.java" />
-        <option value="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/entity/Dividend.java" />
-        <option value="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/utils/CountDownLatchTest1.java" />
-        <option value="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/service/impl/DividendServiceImpl.java" />
-        <option value="$PROJECT_DIR$/redis-queue/src/test/java/com/yangy/redisqueue/RedisQueueApplicationTests.java" />
-        <option value="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/redis-queue/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/yangy/design/model/Listener.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/yangy/design/model/RunThread.java" />
-        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/IWXPayDomain.java" />
-        <option value="$PROJECT_DIR$/third-pay/pom.xml" />
-        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPayReport.java" />
-        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPayUtil.java" />
-        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPayRequestModel.java" />
-        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPayConstants.java" />
-        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/controller/TenpayController.java" />
-        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPay.java" />
-        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/TencentPay/WXPayRequest.java" />
-        <option value="$PROJECT_DIR$/code-tool/src/main/resources/generateModel.properties" />
-        <option value="$PROJECT_DIR$/code-tool/src/main/resources/templates/controller.ftl" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/Receiver.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/PushBlockQueueHandler.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/PushBlockQueue.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/Sender.java" />
+        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/tenpay/WXPayConstants.java" />
+        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/tenpay/WXPayConstants.java" />
+        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/config/TenpayConfig.java" />
+        <option value="$PROJECT_DIR$/third-pay/src/main/resources/tenpay.properties" />
+        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/PayUtils.java" />
+        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/DateUtil.java" />
+        <option value="$PROJECT_DIR$/third-pay/src/main/resources/alipay.properties" />
+        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/alipay/AlipayManager.java" />
+        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/alipay/AlipayUtils.java" />
+        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/tenpay/WXPayUtil.java" />
+        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/enums/AliBizStatusEnum.java" />
+        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/service/PayService.java" />
+        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/service/impl/PayServiceImpl.java" />
+        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/enums/PayEnum.java" />
+        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/model/PayRecordVo.java" />
+        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/model/PayReqVo.java" />
+        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/entity/Pay.java" />
+        <option value="$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/config/AlipayConfig.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/config/RabbitConfig.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/entity/User.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/receiver/TestReceiver.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/sender/TestSender.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/receiver/MySink.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/App.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sender/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/sender/GroupSource.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/sender/UserSource.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/receiver/SinkReceiver.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/model/MySink.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/src/main/resources/application-1.properties" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/src/main/resources/application-2.properties" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/src/main/resources/application-3.properties" />
+        <option value="$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/SernderApp.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/SenderApp.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/model/MySink.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/model/ConsumerSinkImpl.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/model/ConsumerSink.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/sender/GroupSource.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sender/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/model/OrderProcessor.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/model/PayProcessor.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/sender/SinkSender.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/src/test/java/com/yangy/TestMessageProvider.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/sender/MessageProviderImpl.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/receiver/SinkReceiver.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/enums/MQConstant.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/model/DLXMessage.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/config/Sender.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/config/Receiver.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/config/PushBlockQueue.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/config/PushBlockQueueHandler.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/service/impl/RabbitMQServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/RabbitmqApplicationTests.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/service/impl/RedisServiceImpl.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/RabbitmqApplication.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/service/RabbitMQService.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/service/RedisService.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/controller/MQTestController.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/redis/Consumer.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/redis/DividendListener.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/redis/RedisMessageListenerContainerConfig.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/redis/TopicMessageListener.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/RabbitConfig.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/TradeProcessor.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/service/impl/RabbitMQServiceImpl.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/service/impl/HelloApplicationTests.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/MQConfig.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/TestProcessor.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/test/Test.java" />
-        <option value="$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/config/Consumer.java" />
-        <option value="$PROJECT_DIR$/code-tool/src/main/java/com/yangy/codetool/utils/CodeGenerateUtils.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/TradeProcessor.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/ReceiveApp.java" />
       </list>
     </option>
   </component>
@@ -383,7 +407,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="alipay" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spring-cloud-stream" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-cloud-stream" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -402,8 +431,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
@@ -420,55 +449,110 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-tool" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-stream" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-tool" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-tool" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yangy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yangy" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yangy" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yangy" type="462c0819:PsiDirectoryNode" />
+              <item name="receiver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yangy" type="462c0819:PsiDirectoryNode" />
+              <item name="sender" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-tool" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="codetool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="codetool" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="yangy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -489,7 +573,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -503,19 +587,22 @@
       <recent name="com.yangy.rabbitmq.service.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yangy.rabbitmq.config" />
-      <recent name="com.yangy.redis.config" />
-      <recent name="com.yangy.redis.entity" />
-      <recent name="com.yangy.wxlogin.config" />
+      <recent name="com.yangy" />
+      <recent name="com.yangy.pay.enums" />
+      <recent name="com.yangy.pay.config" />
+      <recent name="com.yangy.pay.utils.tenpay" />
+      <recent name="com.yangy.pay.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\test_work_space\yangy\tool\redis-queue\src\main\java\com\yangy\redis\config" />
-      <recent name="D:\test_work_space\yangy\tool\third-pay\src\main\java\com\yangy\pay\utils\TencentPay" />
-      <recent name="D:\test_work_space\yangy\tool\third-login\src\main\java\com\yangy\thirdLogin\utils\wechat" />
-      <recent name="D:\test_work_space\yangy\tool\third-login\src\main\java\com\yangy\thirdLogin\utils" />
-      <recent name="D:\test_work_space\yangy\tool\redis-queue\src\main\java\com\yangy\redis\utils" />
+      <recent name="D:\test_work_space\yangy\tool\spring-cloud-stream\src\main\resources" />
+      <recent name="D:\test_work_space\yangy\tool\spring-cloud-sender\src\main" />
+      <recent name="D:\test_work_space\yangy\tool\spring-cloud-sender\src\main\java\com\yangy" />
+      <recent name="D:\test_work_space\yangy\tool" />
+      <recent name="D:\test_work_space\yangy\tool\spring-cloud-stream\src\main\java\com\yangy" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.yangy.model" />
+      <recent name="com.yangy.pay.service" />
       <recent name="com.yangy.redis.service.impl" />
       <recent name="com.yangy.rabbitmq.service.impl" />
     </key>
@@ -532,47 +619,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CodeGenerateUtils">
-    <configuration name="CodeGenerateUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangy.codetool.utils.CodeGenerateUtils" />
-      <module name="code-tool" />
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangy.App" />
+      <module name="test_jenkins" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yangy.codetool.model.*" />
+          <option name="PATTERN" value="com.yangy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PushBlockQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangy.rabbitmq.config.PushBlockQueue" />
-      <module name="rabbitmq" />
+    <configuration name="SinkReceiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangy.receiver.SinkReceiver" />
+      <module name="spring-cloud-stream" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yangy.rabbitmq.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="RunThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangy.design.model.RunThread" />
-      <module name="design" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yangy.design.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangy.rabbitmq.test.Test" />
-      <module name="rabbitmq" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yangy.rabbitmq.test.*" />
+          <option name="PATTERN" value="com.yangy.receiver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -580,19 +645,19 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="HelloApplicationTests.hello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rabbitmq" />
+    <configuration name="TestMessageProvider.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yangy.rabbitmq.service.impl.*" />
+          <option name="PATTERN" value="com.yangy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.yangy.rabbitmq.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.yangy.rabbitmq.service.impl.HelloApplicationTests" />
-      <option name="METHOD_NAME" value="hello" />
+      <option name="PACKAGE_NAME" value="com.yangy" />
+      <option name="MAIN_CLASS_NAME" value="com.yangy.TestMessageProvider" />
+      <option name="METHOD_NAME" value="testSend" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -619,37 +684,26 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AlipayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="alipay" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yangy.alipay.AlipayApplication" />
+    <configuration name="ReceiveApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yangy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yangy.ReceiveApp" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
-    <configuration name="CodeToolApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="code-tool" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yangy.codetool.CodeToolApplication" />
-    </configuration>
-    <configuration name="DesignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="design" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yangy.design.DesignApplication" />
-    </configuration>
-    <configuration name="RabbitmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="rabbitmq" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yangy.rabbitmq.RabbitmqApplication" />
-    </configuration>
-    <configuration name="RedisQueueApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="redis-queue" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yangy.redis.RedisQueueApplication" />
-    </configuration>
-    <configuration name="ThirdLoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="third-login" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yangy.thirdLogin.ThirdLoginApplication" />
-    </configuration>
-    <configuration name="ThirdPayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="third-pay" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yangy.pay.ThirdPayApplication" />
-    </configuration>
-    <configuration name="WxloginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="wxlogin" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yangy.wxlogin.WxloginApplication" />
+    <configuration name="SenderApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-sender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yangy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yangy.SenderApp" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -674,27 +728,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.CodeToolApplication" />
-      <item itemvalue="Spring Boot.RabbitmqApplication" />
-      <item itemvalue="Spring Boot.WxloginApplication" />
-      <item itemvalue="Spring Boot.AlipayApplication" />
-      <item itemvalue="Spring Boot.ThirdLoginApplication" />
-      <item itemvalue="Spring Boot.ThirdPayApplication" />
-      <item itemvalue="Spring Boot.RedisQueueApplication" />
-      <item itemvalue="Spring Boot.DesignApplication" />
-      <item itemvalue="Application.CodeGenerateUtils" />
-      <item itemvalue="Application.RunThread" />
-      <item itemvalue="JUnit.HelloApplicationTests.hello" />
-      <item itemvalue="Application.PushBlockQueue" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Spring Boot.ReceiveApp" />
+      <item itemvalue="Spring Boot.SenderApp" />
+      <item itemvalue="Application.SinkReceiver" />
+      <item itemvalue="JUnit.TestMessageProvider.testSend" />
+      <item itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CodeGenerateUtils" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.HelloApplicationTests.hello" />
-        <item itemvalue="Application.PushBlockQueue" />
-        <item itemvalue="Application.RunThread" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Spring Boot.ReceiveApp" />
+        <item itemvalue="JUnit.TestMessageProvider.testSend" />
+        <item itemvalue="Spring Boot.SenderApp" />
+        <item itemvalue="Application.SinkReceiver" />
       </list>
     </recent_temporary>
   </component>
@@ -740,6 +786,23 @@
       <workItem from="1530666914178" duration="10183000" />
       <workItem from="1530683069695" duration="5323000" />
       <workItem from="1530761631204" duration="1268000" />
+      <workItem from="1530856672121" duration="877000" />
+      <workItem from="1530925624145" duration="3852000" />
+      <workItem from="1531189278614" duration="1219000" />
+      <workItem from="1531196873844" duration="6884000" />
+      <workItem from="1531272067856" duration="10559000" />
+      <workItem from="1531359565152" duration="3313000" />
+      <workItem from="1531466855359" duration="3164000" />
+      <workItem from="1531531573400" duration="2165000" />
+      <workItem from="1531533979978" duration="16724000" />
+      <workItem from="1531731745241" duration="7680000" />
+      <workItem from="1531796057627" duration="2905000" />
+      <workItem from="1531878227494" duration="6130000" />
+      <workItem from="1531964973974" duration="8992000" />
+      <workItem from="1532428419033" duration="1871000" />
+      <workItem from="1532483220242" duration="1232000" />
+      <workItem from="1532569658513" duration="1192000" />
+      <workItem from="1532656097872" duration="719000" />
     </task>
     <task id="LOCAL-00001" summary="#1 代码生成工具类">
       <created>1528276845030</created>
@@ -857,12 +920,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloApplicationTests_hello - 2018.07.04 at 11h 37m 56s.xml">
-      <configuration name="HelloApplicationTests.hello" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloApplicationTests_hello - 2018.07.04 at 11h 38m 08s.xml">
-      <configuration name="HelloApplicationTests.hello" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HelloApplicationTests_hello - 2018.07.04 at 11h 41m 15s.xml">
       <configuration name="HelloApplicationTests.hello" configurationId="JUnit" />
     </history-entry>
@@ -887,13 +944,18 @@
     <history-entry file="HelloApplicationTests_hello - 2018.07.04 at 15h 34m 38s.xml">
       <configuration name="HelloApplicationTests.hello" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestMessageProvider_testSend - 2018.07.18 at 17h 44m 53s.xml">
+      <configuration name="TestMessageProvider.testSend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMessageProvider_testSend - 2018.07.18 at 17h 45m 30s.xml">
+      <configuration name="TestMessageProvider.testSend" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237889000" />
+    <option name="totallyTimeSpent" value="317367000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013405" side_tool="true" weight="0.33095577" />
@@ -905,18 +967,18 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.532097" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5974395" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.48359486" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.45791727" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.9457917" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30813125" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.81365573" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49865952" weight="0.425107" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.22319035" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49865952" visible="true" weight="0.39942938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.2680965" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32995737" />
       <window_info id="Web" order="2" sideWeight="0.50066227" side_tool="true" weight="0.19296375" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -926,14 +988,16 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32953784" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5550709" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5550709" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3281027" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -958,9 +1022,8 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3281027" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5396476" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1031,7 +1094,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/TestProcessor.java</url>
-          <line>23</line>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="59" />
         </line-breakpoint>
@@ -1047,349 +1110,355 @@
           <properties />
           <option name="timeStamp" value="61" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/code-tool/src/main/java/com/yangy/codetool/utils/ShareCodeUtil.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.0.5.RELEASE/spring-integration-core-5.0.5.RELEASE.jar!/org/springframework/integration/support/MessageBuilder.class</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.0.5.RELEASE/spring-integration-core-5.0.5.RELEASE.jar!/org/springframework/integration/support/MessageBuilder.class</url>
+          <line>190</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.0.5.RELEASE/spring-integration-core-5.0.5.RELEASE.jar!/org/springframework/integration/support/MessageBuilder.class</url>
+          <line>134</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="62" />
+      <option name="time" value="68" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/third-pay/src/test/java/com/yangy/pay/ThirdPayApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/receiver/SinkReceiver.java" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-stream/src/main/resources/application-3.properties" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-stream/src/main/resources/application-2.properties" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-stream/src/main/resources/application-1.properties" />
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/service/impl/RedisServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="336">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code-tool/src/main/resources/generateModel.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-tool/src/main/resources/templates/serviceImpl.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-tool/src/main/resources/templates/controller.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2037">
-          <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-tool/src/main/java/com/yangy/codetool/CodeToolApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/utils/DividendListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/utils/Consmer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/RedisQueueApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/utils/TopicMessageListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.1.2/amqp-client-5.1.2-sources.jar!/com/rabbitmq/client/impl/AMQChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="433" column="13" selection-start-line="433" selection-start-column="13" selection-end-line="433" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/redis/test/TaskShedulerSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/redis/test/TaskProducer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.3.RELEASE/spring-amqp-2.0.3.RELEASE-sources.jar!/org/springframework/amqp/core/MessageDeliveryMode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.3.RELEASE/spring-amqp-2.0.3.RELEASE-sources.jar!/org/springframework/amqp/support/postprocessor/ZipPostProcessor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.3.RELEASE/spring-amqp-2.0.3.RELEASE-sources.jar!/org/springframework/amqp/core/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="672">
+          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.3.RELEASE/spring-rabbit-2.0.3.RELEASE-sources.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.3.RELEASE/spring-amqp-2.0.3.RELEASE-sources.jar!/org/springframework/amqp/core/MessageProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41013">
-          <caret line="1953" column="16" selection-start-line="1953" selection-start-column="16" selection-end-line="1953" selection-end-column="16" />
+        <state relative-caret-position="315">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/model/DLXMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.3.RELEASE/spring-amqp-2.0.3.RELEASE-sources.jar!/org/springframework/amqp/core/BindingBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="276" column="23" selection-start-line="276" selection-start-column="23" selection-end-line="276" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/config/PushBlockQueue.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sender/src/main/resources/rabbitmq.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" column="48" lean-forward="true" selection-start-column="2" selection-end-line="63" selection-end-column="3" />
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/config/PushBlockQueueHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.6.RELEASE/spring-messaging-5.0.6.RELEASE.jar!/org/springframework/messaging/support/MessageBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        <state relative-caret-position="275">
+          <caret line="104" column="51" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/resources/rabbitmq.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.6.RELEASE/spring-messaging-5.0.6.RELEASE.jar!/org/springframework/messaging/support/AbstractMessageChannel.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="208">
+          <caret line="97" column="31" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/service/RabbitMQService.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/SenderApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" lean-forward="true" selection-end-line="12" />
+        <state relative-caret-position="149">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/controller/MQTestController.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="41" lean-forward="true" selection-start-column="2" selection-end-line="54" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/config/Sender.java" />
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/RabbitmqApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="210">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/service/impl/RedisServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="24" column="15" lean-forward="true" selection-start-column="2" selection-end-line="40" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/enums/QueueEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/enums/RedisKeyEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/redis/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="3" lean-forward="true" selection-start-column="2" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/redis/DividendListener.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/model/ConsumerSinkImpl.java" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/sender/GroupSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="28" lean-forward="true" selection-start-column="2" selection-end-line="65" selection-end-column="3" />
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/redis/TopicMessageListener.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/model/MySink.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="27" column="37" lean-forward="true" selection-start-column="2" selection-end-line="59" selection-end-column="3" />
+        <state>
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/config/Receiver.java" />
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/service/RedisService.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sender/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" lean-forward="true" selection-end-line="8" />
+        <state>
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/redis/RedisMessageListenerContainerConfig.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sender/src/main/java/com/yangy/model/ConsumerSink.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="48" column="55" selection-start-column="2" selection-end-line="56" selection-end-column="3" />
+        <state>
+          <caret line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.3.RELEASE/spring-rabbit-2.0.3.RELEASE-sources.jar!/org/springframework/amqp/rabbit/annotation/RabbitHandler.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-stream/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="48" column="31" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="31" />
+        <state relative-caret-position="2761">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.3.RELEASE/spring-rabbit-2.0.3.RELEASE-sources.jar!/org/springframework/amqp/rabbit/annotation/RabbitListener.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/model/MySink.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/2.0.0.RELEASE/spring-cloud-stream-2.0.0.RELEASE.jar!/org/springframework/cloud/stream/annotation/EnableBinding.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2961">
-          <caret line="160" column="86" selection-start-line="160" selection-start-column="7" selection-end-line="160" selection-end-column="86" />
-          <caret line="161" column="86" selection-start-line="161" selection-start-column="7" selection-end-line="161" selection-end-column="86" />
-          <caret line="162" column="54" selection-start-line="162" selection-start-column="7" selection-end-line="162" selection-end-column="54" />
+        <state relative-caret-position="253">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE.jar!/org/springframework/stereotype/Component.class">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/sender/SinkSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/service/impl/HelloApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="28" column="100" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
+        <state relative-caret-position="299">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/enums/ExchangeEnum.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/sender/MessageProviderImpl.java" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-stream/src/test/java/com/yangy/TestMessageProvider.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.6.RELEASE/spring-messaging-5.0.6.RELEASE.jar!/org/springframework/messaging/MessageHeaders.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="644">
+          <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/service/impl/RabbitMQServiceImplTest.java" />
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/RabbitmqApplicationTests.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.0.5.RELEASE/spring-integration-core-5.0.5.RELEASE.jar!/org/springframework/integration/support/DefaultMessageBuilderFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/2.0.0.RELEASE/spring-cloud-stream-2.0.0.RELEASE.jar!/org/springframework/cloud/stream/binder/AbstractMessageChannelBinder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="568" selection-start-line="568" selection-end-line="568" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.0.5.RELEASE/spring-integration-core-5.0.5.RELEASE.jar!/org/springframework/integration/support/AbstractIntegrationMessageBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="38" column="85" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.6.RELEASE/spring-messaging-5.0.6.RELEASE.jar!/org/springframework/messaging/support/MessageHeaderAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="47" column="70" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.6.RELEASE/spring-messaging-5.0.6.RELEASE.jar!/org/springframework/messaging/Message.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.6.RELEASE/spring-messaging-5.0.6.RELEASE.jar!/org/springframework/messaging/support/GenericMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.0.5.RELEASE/spring-integration-core-5.0.5.RELEASE.jar!/org/springframework/integration/support/MessageBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1488">
+          <caret line="139" column="31" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="31" />
+          <folding>
+            <element signature="e#2097#2098#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/receiver/SinkReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="17" lean-forward="true" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.6.RELEASE/spring-messaging-5.0.6.RELEASE.jar!/org/springframework/messaging/MessageChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.6.RELEASE/spring-messaging-5.0.6.RELEASE.jar!/org/springframework/messaging/core/GenericMessagingTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3864">
+          <caret line="201" column="23" selection-start-line="201" selection-start-column="23" selection-end-line="201" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4370">
+          <caret line="893" selection-start-line="893" selection-end-line="893" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/enums/MQConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/MQConfig.java" />
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/service/impl/RabbitMQServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/test/Test.java" />
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/TestProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/TradeProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="461">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/RabbitConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="619">
+          <caret line="37" column="51" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/test/java/com/yangy/rabbitmq/service/impl/HelloApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/TestProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.3.RELEASE/spring-rabbit-2.0.3.RELEASE-sources.jar!/org/springframework/amqp/rabbit/annotation/RabbitHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/service/impl/RabbitMQServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/config/TradeProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/yangy/rabbitmq/RabbitmqApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/model/PayProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-stream/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="434">
+          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis-queue/src/main/java/com/yangy/redis/config/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-stream/src/main/java/com/yangy/ReceiveApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="48" column="33" selection-end-line="81" />
+        <state relative-caret-position="232">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code-tool/src/main/java/com/yangy/codetool/utils/CodeGenerateUtils.java">
+    <entry file="file://$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/alipay/AlipayManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="233">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/utils/alipay/AlipayUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/third-pay/src/main/java/com/yangy/pay/service/impl/PayServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_jenkins/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -1408,7 +1477,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1443,10 +1512,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>code-tool</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1466,6 +1537,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

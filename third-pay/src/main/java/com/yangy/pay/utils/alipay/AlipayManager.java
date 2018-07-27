@@ -1,10 +1,8 @@
-package com.lanqi.common.utils.alipay;
+package com.yangy.pay.utils.alipay;
 
 import com.alipay.api.AlipayClient;
 import com.alipay.api.DefaultAlipayClient;
-import com.lanqi.common.config.AlipayConfig;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.yangy.pay.config.AlipayConfig;
 
 /**
  * @author yangy
@@ -28,6 +26,7 @@ public class AlipayManager {
         return LazyHolder.INSTANCE;
     }
 
-    private AlipayManager() {}
+    private AlipayManager() {
+    }
 }
 

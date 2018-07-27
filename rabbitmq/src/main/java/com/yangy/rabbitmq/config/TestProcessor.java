@@ -21,6 +21,8 @@ public class TestProcessor {
 
     @RabbitHandler
     public void process(String content) {
+
+
         System.out.println("接收到的消息 -> " + content);
         System.out.println("当前时间 -> " + new Date());
     }

@@ -1,5 +1,13 @@
-package com.lanqi.common.enums;
+package com.yangy.pay.enums;
 
+/**
+ * 交易状态枚举
+ *
+ * @author yangy
+ * @email java_yangy@126.com
+ * @create 2018/6/25
+ * @since 1.0.0
+ */
 public enum PayEnum {
 
     ALI(100, "支付宝"),

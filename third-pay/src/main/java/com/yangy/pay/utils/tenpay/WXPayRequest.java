@@ -1,6 +1,5 @@
-package com.lanqi.common.utils.tenpay;
+package com.yangy.pay.utils.tenpay;
 
-import com.alibaba.fastjson.JSON;
 import com.lanqi.common.config.TenpayConfig;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;

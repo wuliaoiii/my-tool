@@ -1,9 +1,8 @@
-package com.lanqi.common.utils.tenpay;
+package com.yangy.pay.utils.tenpay;
 
-import com.lanqi.common.config.Constants;
-import com.lanqi.common.utils.DateUtil;
-import com.lanqi.common.utils.tenpay.WXPayConstants.SignType;
-import com.lanqi.common.vo.PayRecordVo;
+import com.yangy.pay.utils.tenpay.WXPayConstants.SignType;
+import com.yangy.pay.model.PayRecordVo;
+import com.yangy.pay.utils.DateUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.w3c.dom.Node;
@@ -34,7 +33,7 @@ public class WXPayUtil {
         map.put("body", payRecordVo.getSubject());
         map.put("spbill_create_ip", payRecordVo.getIpAddr());
         map.put("out_trade_no", payRecordVo.getPayNo());
-        map.put("total_fee", String.valueOf(payRecordVo.getAmount().multiply(new BigDecimal(Constants.ONE_HUNDRED)).intValue()));
+        map.put("total_fee", String.valueOf(payRecordVo.getAmount().multiply(new BigDecimal(100)).intValue()));
         map.put("trade_type", "APP");
         map.put("time_start", DateUtil.format(new Date(), DateUtil.FORMAT_LONG_AND_NULL));
         map.put("time_expire", DateUtil.getpreHour(DateUtil.FORMAT_LONG_AND_NULL, 1));
@@ -49,8 +48,8 @@ public class WXPayUtil {
         map.put("transaction_id", payRecordVo.getOutTradeNo());
         map.put("out_trade_no", payRecordVo.getPayNo());
         map.put("out_refund_no", payRecordVo.getPayNo());
-        map.put("total_fee", String.valueOf(payRecordVo.getAmount().multiply(new BigDecimal(Constants.ONE_HUNDRED)).intValue()));
-        map.put("refund_fee", String.valueOf(payRecordVo.getAmount().multiply(new BigDecimal(Constants.ONE_HUNDRED)).intValue()));
+        map.put("total_fee", String.valueOf(payRecordVo.getAmount().multiply(new BigDecimal(100)).intValue()));
+        map.put("refund_fee", String.valueOf(payRecordVo.getAmount().multiply(new BigDecimal(100)).intValue()));
         map.put("trade_type", "APP");
         map.put("time_start", DateUtil.format(new Date(), DateUtil.FORMAT_LONG_AND_NULL));
         map.put("time_expire", DateUtil.getpreHour(DateUtil.FORMAT_LONG_AND_NULL, 1));
@@ -109,7 +108,6 @@ public class WXPayUtil {
                 "</xml>";
         try {
             Map<String, String> stringStringMap = xmlToMap(str);
-
             System.out.println(stringStringMap);
         } catch (Exception e) {
             e.printStackTrace();
@@ -117,7 +115,6 @@ public class WXPayUtil {
 
 
     }
-
 
 
     /**

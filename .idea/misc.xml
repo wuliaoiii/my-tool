@@ -5,11 +5,13 @@
       <list>
         <option value="$PROJECT_DIR$/code-tool/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
-        <option value="$PROJECT_DIR$/alipay/pom.xml" />
         <option value="$PROJECT_DIR$/third-login/pom.xml" />
         <option value="$PROJECT_DIR$/third-pay/pom.xml" />
         <option value="$PROJECT_DIR$/redis-queue/pom.xml" />
         <option value="$PROJECT_DIR$/design/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sender/pom.xml" />
+        <option value="$PROJECT_DIR$/test_jenkins/pom.xml" />
       </list>
     </option>
   </component>

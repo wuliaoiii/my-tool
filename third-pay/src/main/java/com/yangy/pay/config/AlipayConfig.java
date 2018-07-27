@@ -1,4 +1,4 @@
-package com.lanqi.common.config;
+package com.yangy.pay.config;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -6,9 +6,11 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 
 /**
+ * 阿里支付配置
+ *
  * @author yangy
  * @email java_yangy@126.com
- * @create 2018/6/12
+ * @create 2018/6/25
  * @since 1.0.0
  */
 public class AlipayConfig {

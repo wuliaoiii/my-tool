@@ -1,4 +1,4 @@
-package com.yangy.pay.utils.tenpay;
+package com.yangy.pay.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

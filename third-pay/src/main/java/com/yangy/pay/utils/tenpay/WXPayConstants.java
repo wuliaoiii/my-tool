@@ -1,4 +1,4 @@
-package com.lanqi.common.utils.tenpay;
+package com.yangy.pay.utils.tenpay;
 
 /**
  * 常量
