@@ -1,75 +1,109 @@
-package com.yangy.pay.entity;
+package com.lanqi.common.entity;
 
-import lombok.Builder;
-import lombok.Data;
-
+import javax.persistence.*;
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-@Data //get set 方法
-@Builder //builder 模式
-//@AllArgsConstructor //有参构造
-//@NoArgsConstructor //无参构造
-public class Pay {
-    /**
-     * 主键
-     */
-    private Integer id;
+/**
+ * 描述：交易记录模型
+ *
+ * @author yangy
+ * @date 2018/06/25
+ */
+@Entity
+@Table(name = "py_pay")
+public class Pay implements Serializable {
 
     /**
-     * 支付账号
+     * id
      */
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+
+    /**
+     * 支付编号
+     */
+    @Column(name = "pay_no")
     private String payNo;
 
     /**
-     * 外部支付账户
+     * 微信支付宝 支付编号
      */
+    @Column(name = "out_pay_no")
     private String outPayNo;
+
+    /**
+     * 订单id
+     */
+    @Column(name = "order_id")
+    private String orderId;
 
     /**
      * 用户id
      */
-    private Integer userId;
+    @Column(name = "user_id")
+    private Long userId;
 
     /**
-     * 支付方式  100 支付宝 101 微信  102 蚂蚁花呗
+     * 支付方式 100：支付宝 101：微信 102：花呗
      */
+    @Column(name = "way")
     private Integer way;
 
     /**
-     * 操作类型 100:支付 101:退款
+     * 类型 100：支付 101：提现 102 : 退款
      */
+    @Column(name = "type")
     private Integer type;
 
     /**
-     * 状态 100 待支付 101 支付成功 102  支付失败
+     * 100：预约 订单 102：优惠券
      */
-    private Integer status;
+    @Column(name = "relate_type")
+    private Integer relateType;
 
     /**
-     * 支付金额
+     * 预约订单编号、优惠券id
      */
+    @Column(name = "relate")
+    private String relate;
+
+    /**
+     * 金额
+     */
+    @Column(name = "amount")
     private BigDecimal amount;
+
+    /**
+     * 状态 100：待支付 101：支付成功 102：支付失败
+     */
+    @Column(name = "status")
+    private Integer status;
 
     /**
      * 创建时间
      */
+    @Column(name = "create_time")
     private Long createTime;
 
     /**
      * 修改时间
      */
+    @Column(name = "update_time")
     private Long updateTime;
 
-    public Integer getId() {
-        return id;
+
+    public Long getId() {
+        return this.id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
     public String getPayNo() {
-        return payNo;
+        return this.payNo;
     }
 
     public void setPayNo(String payNo) {
@@ -77,23 +111,31 @@ public class Pay {
     }
 
     public String getOutPayNo() {
-        return outPayNo;
+        return this.outPayNo;
     }
 
     public void setOutPayNo(String outPayNo) {
         this.outPayNo = outPayNo;
     }
 
-    public Integer getUserId() {
-        return userId;
+    public String getOrderId() {
+        return orderId;
     }
 
-    public void setUserId(Integer userId) {
+    public void setOrderId(String orderId) {
+        this.orderId = orderId;
+    }
+
+    public Long getUserId() {
+        return this.userId;
+    }
+
+    public void setUserId(Long userId) {
         this.userId = userId;
     }
 
     public Integer getWay() {
-        return way;
+        return this.way;
     }
 
     public void setWay(Integer way) {
@@ -101,31 +143,47 @@ public class Pay {
     }
 
     public Integer getType() {
-        return type;
+        return this.type;
     }
 
     public void setType(Integer type) {
         this.type = type;
     }
 
-    public Integer getStatus() {
-        return status;
+    public Integer getRelateType() {
+        return this.relateType;
     }
 
-    public void setStatus(Integer status) {
-        this.status = status;
+    public void setRelateType(Integer relateType) {
+        this.relateType = relateType;
+    }
+
+    public String getRelate() {
+        return this.relate;
+    }
+
+    public void setRelate(String relate) {
+        this.relate = relate;
     }
 
     public BigDecimal getAmount() {
-        return amount;
+        return this.amount;
     }
 
     public void setAmount(BigDecimal amount) {
         this.amount = amount;
     }
 
+    public Integer getStatus() {
+        return this.status;
+    }
+
+    public void setStatus(Integer status) {
+        this.status = status;
+    }
+
     public Long getCreateTime() {
-        return createTime;
+        return this.createTime;
     }
 
     public void setCreateTime(Long createTime) {
@@ -133,7 +191,7 @@ public class Pay {
     }
 
     public Long getUpdateTime() {
-        return updateTime;
+        return this.updateTime;
     }
 
     public void setUpdateTime(Long updateTime) {

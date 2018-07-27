@@ -1,4 +1,4 @@
-package com.yangy.pay.utils;
+package com.yangy.pay.utils.tenpay;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 import javax.servlet.http.HttpServletRequest;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+import java.util.Date;
 
 public class PayUtils {
 
@@ -18,7 +19,7 @@ public class PayUtils {
      * @return
      */
     public static String createPayNo(String str) {
-        String nowTimeStamp = DateUtils.getNowTimeStamp();
+        String nowTimeStamp = DateUtil.format(new Date(),DateUtil.FORMAT_LONG_AND_NULL);
         return nowTimeStamp + str;
     }
 
@@ -39,7 +40,7 @@ public class PayUtils {
         }
         if (ipAddress == null || ipAddress.length() == 0 || "unknown".equalsIgnoreCase(ipAddress)) {
             ipAddress = req.getRemoteAddr();
-            if (ipAddress.equals("127.0.0.1")) {
+            if ("127.0.0.1".equals(ipAddress)) {
                 //根据网卡取本机配置的IP
                 InetAddress inet = null;
                 try {
