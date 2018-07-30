@@ -1,8 +1,7 @@
 package com.yangy.codetool.model;
 
 /**
- * 数据库字段封装类
- * Created by Ay on 2017/5/3.
+ *
  */
 public class ColumnClass {
 

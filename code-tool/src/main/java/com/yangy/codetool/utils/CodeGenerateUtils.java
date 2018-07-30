@@ -1,5 +1,6 @@
 package com.yangy.codetool.utils;
 
+import com.alibaba.fastjson.JSON;
 import com.yangy.codetool.config.GenerateConfig;
 import com.yangy.codetool.model.ColumnClass;
 import com.yangy.codetool.model.TableClass;
@@ -21,61 +22,7 @@ public class CodeGenerateUtils {
 
     public static void main(String[] args) throws Exception {
         CodeGenerateUtils codeGenerateUtils = new CodeGenerateUtils();
-//
-//        TableClass dict = new TableClass();
-//        dict.setTableName("sys_dict");
-//        dict.setTableAnnotation("字典表");
-//        codeGenerateUtils.generate(dict);
-
-//        TableClass demand = new TableClass();
-//        demand.setTableName("us_demand");
-//        demand.setTableAnnotation("用户需求");
-//        codeGenerateUtils.generate(demand);
-//
-//        TableClass device = new TableClass();
-//        device.setTableName("us_device");
-//        device.setTableAnnotation("设备表");
-//        codeGenerateUtils.generate(device);
-//
-//        TableClass deviceHistory = new TableClass();
-//        deviceHistory.setTableName("us_device_history");
-//        deviceHistory.setTableAnnotation("用户设备记录");
-//        codeGenerateUtils.generate(deviceHistory);
-
-//        TableClass friend = new TableClass();
-//        friend.setTableName("us_friend");
-//        friend.setTableAnnotation("好友");
-//        codeGenerateUtils.generate(friend);
-
-//        TableClass invite = new TableClass();
-//        invite.setTableName("us_invite");
-//        invite.setTableAnnotation("邀请记录");
-//        codeGenerateUtils.generate(invite);
-//
-//
-//        TableClass loginHistory = new TableClass();
-//        loginHistory.setTableName("us_login_history");
-//        loginHistory.setTableAnnotation("登录历史");
-//        codeGenerateUtils.generate(loginHistory);
-//
-//        TableClass pay = new TableClass();
-//        pay.setTableName("py_pay");
-//        pay.setTableAnnotation("交易记录");
-//        codeGenerateUtils.generate(pay);
-
-//        TableClass regions = new TableClass();
-//        regions.setTableName("sys_regions");
-//        regions.setTableAnnotation("地区表");
-//        codeGenerateUtils.generate(regions);
-
-        TableClass demandPersonal = new TableClass();
-        demandPersonal.setTableName("us_demand_personal");
-        demandPersonal.setTableAnnotation("私人需求记录表");
-        codeGenerateUtils.generate(demandPersonal);
-
-
-        //生成所有表的代码
-        //codeGenerateUtils.generateAll();
+        codeGenerateUtils.generateAll();
     }
 
     /**
@@ -98,6 +45,7 @@ public class CodeGenerateUtils {
     public void generateAll() {
         try {
             List<TableClass> tables = getTables();
+
             for (TableClass table : tables) {
                 generate(table);
             }
@@ -107,6 +55,7 @@ public class CodeGenerateUtils {
 
         }
     }
+
 
     /**
      * 生成单个表的代码
@@ -119,24 +68,28 @@ public class CodeGenerateUtils {
             Connection connection = getConnection();
             DatabaseMetaData databaseMetaData = connection.getMetaData();
             ResultSet resultSet = databaseMetaData.getColumns(null, "%", tableClass.getTableName(), "%");
-            //生成Api文件
-            generateApiFile(resultSet, tableClass);
-            //生成Hystrix文件
-            generateHystrixFile(resultSet, tableClass);
-            //生成Mybatis文件
-            generateMybatisFile(resultSet, tableClass);
-            //生成Mapper文件
-            generateMapperFile(resultSet, tableClass);
-            //生成服务实现层文件
-            generateServiceImplFile(resultSet, tableClass);
-            //生成服务层接口文件
-            generateServiceInterfaceFile(resultSet, tableClass);
-            //生成Controller层文件
-            generateControllerFile(resultSet, tableClass);
 
-            ResultSet resultSet2 = databaseMetaData.getColumns(null, "%", tableClass.getTableName(), "%");
-            //生成Model文件
-            generateEntityFile(resultSet2, tableClass);
+            System.out.println(JSON.toJSONString(resultSet));
+
+
+//            //生成Api文件
+//            generateApiFile(resultSet, tableClass);
+//            //生成Hystrix文件
+//            generateHystrixFile(resultSet, tableClass);
+//            //生成Mybatis文件
+//            generateMybatisFile(resultSet, tableClass);
+//            //生成Mapper文件
+//            generateMapperFile(resultSet, tableClass);
+//            //生成服务实现层文件
+//            generateServiceImplFile(resultSet, tableClass);
+//            //生成服务层接口文件
+//            generateServiceInterfaceFile(resultSet, tableClass);
+//            //生成Controller层文件
+//            generateControllerFile(resultSet, tableClass);
+//
+//            ResultSet resultSet2 = databaseMetaData.getColumns(null, "%", tableClass.getTableName(), "%");
+//            //生成Model文件
+//            generateEntityFile(resultSet2, tableClass);
         } catch (Exception e) {
             throw new RuntimeException(e);
         } finally {

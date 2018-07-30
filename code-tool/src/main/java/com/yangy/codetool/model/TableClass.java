@@ -17,10 +17,6 @@ public class TableClass {
     private String changeTableName;
 
     public String getPrefix() {
-        if (StringUtils.isBlank(tableName)) {
-            prefix = "t_";
-            return prefix;
-        }
         String[] split = tableName.split("_");
         return split[0] + "_";
     }
