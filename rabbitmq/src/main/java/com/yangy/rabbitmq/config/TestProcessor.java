@@ -1,10 +1,14 @@
 package com.yangy.rabbitmq.config;
 
+import com.rabbitmq.client.Channel;
 import com.yangy.rabbitmq.enums.MQConstant;
+import org.springframework.amqp.core.Message;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
+import java.io.IOException;
 import java.util.Date;
 
 /**
@@ -20,10 +24,13 @@ import java.util.Date;
 public class TestProcessor {
 
     @RabbitHandler
-    public void process(String content) {
-
-
+    public void process(@Payload String content, Message message , Channel channel) {
         System.out.println("接收到的消息 -> " + content);
-        System.out.println("当前时间 -> " + new Date());
+        System.out.println("接收到的消息 -> " + message.getMessageProperties().getDeliveryTag());
+        try {
+            channel.basicAck(message.getMessageProperties().getDeliveryTag(),true);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

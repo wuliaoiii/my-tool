@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-stream/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-sender/pom.xml" />
         <option value="$PROJECT_DIR$/test_jenkins/pom.xml" />
+        <option value="$PROJECT_DIR$/elastric_search/pom.xml" />
       </list>
     </option>
   </component>

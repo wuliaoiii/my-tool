@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="code-tool" />
         <module name="design" />
+        <module name="elastric_search" />
         <module name="rabbitmq" />
         <module name="redis-queue" />
         <module name="spring-cloud-sender" />
@@ -21,6 +22,7 @@
       <module name="alipay" target="1.8" />
       <module name="code-tool" target="1.8" />
       <module name="design" target="1.8" />
+      <module name="elastric_search" target="1.8" />
       <module name="rabbitmq" target="1.8" />
       <module name="redis-queue" target="1.8" />
       <module name="spring-cloud-sender" target="1.8" />

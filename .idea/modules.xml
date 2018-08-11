@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/code-tool/code-tool.iml" filepath="$PROJECT_DIR$/code-tool/code-tool.iml" />
       <module fileurl="file://$PROJECT_DIR$/design/design.iml" filepath="$PROJECT_DIR$/design/design.iml" />
       <module fileurl="file://$PROJECT_DIR$/doc/doc.iml" filepath="$PROJECT_DIR$/doc/doc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elastric_search/elastric_search.iml" filepath="$PROJECT_DIR$/elastric_search/elastric_search.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-queue/redis-queue.iml" filepath="$PROJECT_DIR$/redis-queue/redis-queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-sender/spring-cloud-sender.iml" filepath="$PROJECT_DIR$/spring-cloud-sender/spring-cloud-sender.iml" />
