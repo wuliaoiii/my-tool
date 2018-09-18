@@ -1,13 +1,13 @@
 package ${package_name}.service.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.lanqi.common.enums.ErrorCode;
-import com.lanqi.common.exception.MyException;
-import com.lanqi.common.utils.PageInfo;
-import com.lanqi.common.utils.PageRequestParams;
+import ${package_name}.common.enums.ErrorCode;
+import ${package_name}.common.exception.MyException;
+import ${package_name}.common.utils.PageInfo;
+import ${package_name}.common.utils.PageRequestParams;
 import ${package_name}.dao.${table_name}Mapper;
-<#--import ${package_name}.entity.${table_name};-->
-import com.lanqi.common.entity.${table_name};
+import ${package_name}.entity.${table_name};
+<#--import ${package_name}.common.entity.${table_name};-->
 import ${package_name}.service.${table_name}Service;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;

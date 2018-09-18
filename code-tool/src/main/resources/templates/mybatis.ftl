@@ -2,8 +2,8 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="${package_name}.dao.${table_name}Mapper">
     <#if model_column?exists>
-    <#--<resultMap id="BaseResultMap" type="${package_name}.entity.${table_name}">-->
-    <resultMap id="BaseResultMap" type="com.lanqi.common.entity.${table_name}">
+    <resultMap id="BaseResultMap" type="${package_name}.entity.${table_name}">
+    <#--<resultMap id="BaseResultMap" type="com.lanqi.common.entity.${table_name}">-->
         <#list model_column as model>
             <#if (model.columnType = 'INT')>
         <result column="${model.columnName}" property="${model.changeColumnName?uncap_first}" jdbcType="INTEGER"/>
@@ -105,8 +105,8 @@
 
 
     <!--添加${table_annotation}-->
-    <#--<insert id="save${table_name}" parameterType="${package_name}.entity.${table_name}" useGeneratedKeys="true"-->
-    <insert id="save${table_name}" parameterType="com.lanqi.common.entity.${table_name}" useGeneratedKeys="true"
+    <insert id="save${table_name}" parameterType="${package_name}.entity.${table_name}" useGeneratedKeys="true"
+    <#--<insert id="save${table_name}" parameterType="com.lanqi.common.entity.${table_name}" useGeneratedKeys="true"-->
             keyProperty="id">
         insert into ${table_name_small}
         <trim prefix="(" suffix=")" suffixOverrides=",">
@@ -149,8 +149,8 @@
 
 
     <!--修改${table_annotation}-->
-    <#--<update id="update${table_name}" parameterType="${package_name}.entity.${table_name}">-->
-    <update id="update${table_name}" parameterType="com.lanqi.common.entity.${table_name}">
+    <update id="update${table_name}" parameterType="${package_name}.entity.${table_name}">
+    <#--<update id="update${table_name}" parameterType="com.lanqi.common.entity.${table_name}">-->
         update ${table_name_small}
         <#if model_column?exists>
         <set>

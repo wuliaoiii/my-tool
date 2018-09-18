@@ -1,10 +1,10 @@
 package ${package_name}.api;
 
 import ${package_name}.api.hystrix.${table_name}Hystrix;
-<#--import ${package_name}.entity.${table_name};-->
-import com.lanqi.common.entity.${table_name};
-import com.lanqi.common.utils.PageRequestParams;
-import com.lanqi.common.utils.Result;
+import ${package_name}.entity.${table_name};
+<#--import com.lanqi.common.entity.${table_name};-->
+import ${package_name}.common.utils.PageRequestParams;
+import ${package_name}.common.utils.Result;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 

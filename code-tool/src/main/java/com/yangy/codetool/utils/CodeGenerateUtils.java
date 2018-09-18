@@ -16,7 +16,6 @@ import java.util.Map;
 
 /**
  * 描述：代码生成器
- * Created by Ay on 2017/5/1.
  */
 public class CodeGenerateUtils {
 
@@ -69,27 +68,25 @@ public class CodeGenerateUtils {
             DatabaseMetaData databaseMetaData = connection.getMetaData();
             ResultSet resultSet = databaseMetaData.getColumns(null, "%", tableClass.getTableName(), "%");
 
-            System.out.println(JSON.toJSONString(resultSet));
 
+            //生成Api文件
+            generateApiFile(resultSet, tableClass);
+            //生成Hystrix文件
+            generateHystrixFile(resultSet, tableClass);
+            //生成Mybatis文件
+            generateMybatisFile(resultSet, tableClass);
+            //生成Mapper文件
+            generateMapperFile(resultSet, tableClass);
+            //生成服务实现层文件
+            generateServiceImplFile(resultSet, tableClass);
+            //生成服务层接口文件
+            generateServiceInterfaceFile(resultSet, tableClass);
+            //生成Controller层文件
+            generateControllerFile(resultSet, tableClass);
 
-//            //生成Api文件
-//            generateApiFile(resultSet, tableClass);
-//            //生成Hystrix文件
-//            generateHystrixFile(resultSet, tableClass);
-//            //生成Mybatis文件
-//            generateMybatisFile(resultSet, tableClass);
-//            //生成Mapper文件
-//            generateMapperFile(resultSet, tableClass);
-//            //生成服务实现层文件
-//            generateServiceImplFile(resultSet, tableClass);
-//            //生成服务层接口文件
-//            generateServiceInterfaceFile(resultSet, tableClass);
-//            //生成Controller层文件
-//            generateControllerFile(resultSet, tableClass);
-//
-//            ResultSet resultSet2 = databaseMetaData.getColumns(null, "%", tableClass.getTableName(), "%");
-//            //生成Model文件
-//            generateEntityFile(resultSet2, tableClass);
+            ResultSet resultSet2 = databaseMetaData.getColumns(null, "%", tableClass.getTableName(), "%");
+            //生成Model文件
+            generateEntityFile(resultSet2, tableClass);
         } catch (Exception e) {
             throw new RuntimeException(e);
         } finally {

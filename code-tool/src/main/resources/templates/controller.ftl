@@ -1,11 +1,11 @@
 package ${package_name}.controller;
 
-import com.lanqi.common.utils.PageInfo;
-import com.lanqi.common.utils.PageRequestParams;
-import com.lanqi.common.utils.Response;
-import com.lanqi.common.utils.Result;
-<#--import ${package_name}.entity.${table_name};-->
-import com.lanqi.common.entity.${table_name};
+import ${package_name}.common.utils.PageInfo;
+import ${package_name}.common.utils.PageRequestParams;
+import ${package_name}.common.utils.Response;
+import ${package_name}.common.utils.Result;
+import ${package_name}.entity.${table_name};
+<#--import ${package_name}.common.entity.${table_name};-->
 import ${package_name}.service.${table_name}Service;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -16,7 +16,6 @@ import java.util.List;
 /**
  * 描述：${table_annotation}控制层
  * @author ${author}
- * @email ${author}
  * @date ${date}
  */
 @Controller

@@ -1,12 +1,12 @@
 package ${package_name}.api.hystrix;
 
 import ${package_name}.api.${table_name}Api;
-<#--import ${package_name}.entity.${table_name};-->
-import com.lanqi.common.entity.${table_name};
-import com.lanqi.common.enums.ErrorCode;
-import com.lanqi.common.utils.PageRequestParams;
-import com.lanqi.common.utils.Response;
-import com.lanqi.common.utils.Result;
+import ${package_name}.entity.${table_name};
+<#--import ${package_name}.common.entity.${table_name};-->
+import ${package_name}.common.enums.ErrorCode;
+import ${package_name}.common.utils.PageRequestParams;
+import ${package_name}.common.utils.Response;
+import ${package_name}.common.utils.Result;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;

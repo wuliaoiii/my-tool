@@ -8,8 +8,6 @@ import java.io.Serializable;
  * @author ${author}
  * @date ${date}
  */
-@Entity
-@Table(name="${table_name_small}")
 public class ${table_name} implements Serializable {
 
 <#if model_column?exists>
@@ -18,7 +16,6 @@ public class ${table_name} implements Serializable {
     /**
      *${model.columnComment!}
      */
-    @Column(name = "${model.columnName}")
     private String ${model.changeColumnName?uncap_first};
 
     </#if>
@@ -26,15 +23,12 @@ public class ${table_name} implements Serializable {
     /**
      *${model.columnComment!}
      */
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long ${model.changeColumnName?uncap_first};
 
     <#elseif (model.columnType = 'BIGINT' && model.columnName != 'id')>
     /**
      *${model.columnComment!}
      */
-    @Column(name = "${model.columnName}")
     private Long ${model.changeColumnName?uncap_first};
 
     </#if>
@@ -42,7 +36,6 @@ public class ${table_name} implements Serializable {
     /**
      *${model.columnComment!}
      */
-    @Column(name = "${model.columnName}")
     private Integer ${model.changeColumnName?uncap_first};
 
     </#if>
@@ -50,7 +43,6 @@ public class ${table_name} implements Serializable {
     /**
      *${model.columnComment!}
      */
-    @Column(name = "${model.columnName}")
     private BigDecimal ${model.changeColumnName?uncap_first};
 
     </#if>
@@ -58,7 +50,6 @@ public class ${table_name} implements Serializable {
     /**
      *${model.columnComment!}
      */
-    @Column(name = "${model.columnName}")
     private Date ${model.changeColumnName?uncap_first};
 
     </#if>

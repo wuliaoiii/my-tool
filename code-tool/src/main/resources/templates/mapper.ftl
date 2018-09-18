@@ -1,9 +1,9 @@
 package ${package_name}.dao;
 
-<#--import ${package_name}.entity.${table_name};-->
-import com.lanqi.common.entity.${table_name};
-import com.lanqi.common.utils.PageInfo;
-import com.lanqi.common.utils.PageRequestParams;
+import ${package_name}.entity.${table_name};
+<#--import ${package_name}.common.entity.${table_name};-->
+import ${package_name}.common.utils.PageInfo;
+import ${package_name}.common.utils.PageRequestParams;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;
