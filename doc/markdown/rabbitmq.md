@@ -129,6 +129,50 @@ rabbitMq的内部对象 用来存储消息
 
 ----------	
 
-		
 
+#### 生产者消息确认 ####
+1. 事务机制
+	
+        Channel channel = getChannel();
+
+        //将信道置为 publisher confirm 模式
+        try {
+            channel.txSelect();
+            channel.basicPublish("TEST_DIRECT_EXCHANGE", "TEST_QUEUE",
+                    null, "this is a test msg".getBytes());
+            int result = 1 / 0;
+            channel.txCommit();
+        } catch (IOException e) {
+            channel.txRollback();
+            channel.close();
+        }
+    	
+2. 发送方确认机制
  
+	Channel channel = getChannel();
+
+        //将信道置为 publisher confirm 模式
+        channel.confirmSelect();
+
+        channel.basicPublish("TEST_DIRECT_EXCHANGE", "TEST_QUEUE",
+                null, "this is a test msg".getBytes());
+
+        if (channel.waitForConfirms()) {
+            System.out.println("msg send failure %n hhh");
+        }
+
+        channel.close();
+
+3. 批量confirm
+4. 异步confirm
+
+**QPS**
+
+**异步confirm 支持的峰值最高**
+
+**均值 异步与批量相差不多 大约是其他两种的五到六倍**
+
+**均值 普通confirm 比事务方式略高**
+
+#### 消息的消费 ####
+对于同一个消息队列 如果拥有多个消费者时 队列收到的消息将以轮询的分发方式发送给消费者
